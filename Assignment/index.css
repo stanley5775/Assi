@@ -1,0 +1,86 @@
+.main{
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: tomato;
+    font-size: 35px;
+    font-family: sofia,cursive;      
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subcribe-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    font-size: bold;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .image-container img {
+    width: 110%;
+    height: 40%;
+    padding-block: 50px;
+    justify-content: center;
+    margin-left: 300px;
+  }
+  
+  .text-box {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 250px;
+  }
